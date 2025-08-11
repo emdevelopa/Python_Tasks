@@ -10,7 +10,7 @@ def BMI():
         weight, height = showInputs()
         bmi = weight / (height**2)
         print(f"The calculated BMI is {bmi}")
-        
+    
         if bmi < 18.5:
             print("You are Underweight")
         elif 18.5 <= bmi <= 24.9:
