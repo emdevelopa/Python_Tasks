@@ -4,6 +4,32 @@
 #     n+=1
 #     print("hello")
 
-n = 4
-for n in range(4):
-    print("hello")
+ 
+# for n in range(0,10,2):
+#     print(f"hello {n}")
+
+# cars = ["volvo", "honda", "toyota", "benz", "Porshe"]
+# n=0
+
+# for car in cars:
+#     n+=1
+#     print(f"{n}. {car}")
+
+users = [{
+    "name": "Gyimah Emmanuel",
+    "age": 34,
+    "course": "Computer Science",
+     
+},{
+    "name": "Gyimah Isaac",
+    "age": 34,
+    "course": "Computer Science"
+},{
+    "name": "Gyimah Michael",
+    "age": 34,
+    "course": "Computer Science"
+},]
+
+
+for user in users:
+    print(f"welcome {user["name"]}")
