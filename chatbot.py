@@ -10,10 +10,10 @@ while True:
 
     elif "h" == user_input:
         print(""" 
-        commands    hello/hi
-                    how are you
-                    your name
-                    bye
+    commands    hello/hi
+                how are you
+                your name
+                bye
         """)
     elif "how are you" in user_input:
         print("ChatPy: I'm doing great thanks for asking!")
