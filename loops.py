@@ -15,21 +15,28 @@
 #     n+=1
 #     print(f"{n}. {car}")
 
-users = [{
-    "name": "Gyimah Emmanuel",
-    "age": 34,
-    "course": "Computer Science",
+# users = [{
+#     "name": "Gyimah Emmanuel",
+#     "age": 34,
+#     "course": "Computer Science",
      
-},{
-    "name": "Gyimah Isaac",
-    "age": 34,
-    "course": "Computer Science"
-},{
-    "name": "Gyimah Michael",
-    "age": 34,
-    "course": "Computer Science"
-},]
+# },{
+#     "name": "Gyimah Isaac",
+#     "age": 34,
+#     "course": "Computer Science"
+# },{
+#     "name": "Gyimah Michael",
+#     "age": 34,
+#     "course": "Computer Science"
+# },]
 
 
-for user in users:
-    print(f"welcome {user["name"]}")
+# for user in users:
+#     print(f"welcome {user["name"]}")
+
+a = ["mary", "john", "apple", "had", "little"]
+
+for i in range(len(a)):
+    print(i, a[i])
+    
+
